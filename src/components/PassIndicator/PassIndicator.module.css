@@ -1,0 +1,7 @@
+.passIndicator {
+    height: 4px;
+    position: relative;
+    margin-top: 0.75rem;
+    border-radius: 25px;
+    display: block;
+}
