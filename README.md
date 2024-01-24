@@ -1,3 +1,3 @@
 # Password Generator
 
-[Link](http://pass-gen.ivitalka.ru)
+[Link](https://pass-gen-rho.vercel.app/)
