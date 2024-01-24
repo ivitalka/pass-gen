@@ -12,7 +12,6 @@ export const InputBox = memo(({ value }) => {
         setTimeout(() => {
             e.target.innerText = 'copy_all'
             e.target.style.color = ''
-            alert('test')
         }, 1500)
     }
 
@@ -21,7 +20,6 @@ export const InputBox = memo(({ value }) => {
             <input className={styles.input} type="text" name="" value={value} disabled/>
             <span
                 className="material-symbols-rounded copyAll"
-                onTouchEnd={(e) => copyPassword(e)}
                 onClick={(e) => copyPassword(e)}
             >
                 copy_all
