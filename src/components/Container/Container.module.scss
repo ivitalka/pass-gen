@@ -1,0 +1,27 @@
+:global {
+  body[data-theme='light'] {
+    --container-bg: var(--white);
+    --container-shadow: var(--shadow);
+  }
+
+  body[data-theme='dark'] {
+    --container-bg: var(--gray-400);
+    --ucard-shadow: unset;
+  }
+}
+.container {
+  width: 100%;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.wrapper {
+  margin-top: 45px;
+  max-width: 450px;
+  padding: 1.25rem 1.75rem;
+  background-color: var(--container-bg);
+  border-radius: 8px;
+  box-shadow: var(--container-shadow);
+}

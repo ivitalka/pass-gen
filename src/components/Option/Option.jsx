@@ -1,5 +1,5 @@
 import React, {memo} from 'react';
-import styles from './Option.module.css';
+import styles from './Option.module.scss';
 
 
 export const Option = memo(({ id, state, setState, children }) => {

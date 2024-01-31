@@ -1,5 +1,5 @@
 import React, {memo} from 'react';
-import styles from './InputBox.module.css';
+import styles from './InputBox.module.scss';
 
 
 export const InputBox = memo(({ value }) => {

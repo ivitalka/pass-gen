@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './PassIndicator.module.css';
+import styles from './PassIndicator.module.scss';
 
 
 export const PassIndicator = ({value}) => {

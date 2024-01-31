@@ -1,0 +1,35 @@
+:global {
+    body[data-theme='light'] {
+        --option-color: var(--gray-300);
+    }
+
+    body[data-theme='dark'] {
+        --option-color: var(--white);
+    }
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: calc(100%/2);
+
+    & input {
+        height: 16px;
+        width: 16px;
+        cursor: pointer;
+    }
+
+    & label {
+        opacity: 0.75;
+        cursor: pointer;
+        color: var(--option-color);
+        padding-left: 0.63rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .option {
+        font-size: 12px;
+    }
+}

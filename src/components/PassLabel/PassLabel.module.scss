@@ -1,0 +1,14 @@
+:global {
+  body[data-theme='light'] {
+    --label-color: var(--gray-300);
+  }
+
+  body[data-theme='dark'] {
+    --label-color: var(--white);
+  }
+}
+
+.passLabel {
+  color: var(--label-color);
+}
+

@@ -1,9 +1,8 @@
 import React, {memo} from 'react';
-import styles from './PassLength.module.css';
+import styles from './PassLength.module.scss';
 
 
 export const PassLength = memo(({length, setLength}) => {
-    console.log('pass')
     const lengthHandler = (e) => setLength(e.target.value)
 
     return (
