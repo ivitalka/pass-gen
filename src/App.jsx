@@ -9,6 +9,13 @@ import {GenerateButton} from "./components/GenerateButton";
 import {OptionsList} from "./components/OptionsList";
 import {PassLabel} from "./components/PassLabel";
 
+//  Лишний код
+// 
+// 
+// 
+// 
+
+
 function App() {
 
     const [lowercase, setLowercase] = useState(true)
